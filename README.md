@@ -4,7 +4,7 @@
 
 Este projeto é um sistema simples feito em Java para representar o cadastro de pessoas em uma academia. O sistema possui alunos normais, alunos com personal e personal trainers.
 
-A ideia principal do projeto é praticar conceitos básicos de Programação Orientada a Objetos, como classes, objetos, atributos, métodos, encapsulamento, herança e polimorfismo.
+A ideia principal do projeto é praticar conceitos básicos de Programação Orientada a Objetos, como classes, objetos, atributos, métodos, encapsulamento, herança e sobrescrita de métodos.
 
 ## Classes do projeto
 
@@ -45,10 +45,6 @@ Os atributos das classes foram definidos como private, e o acesso a eles é feit
 ### Herança
 
 As classes Aluno_n, Aluno_p e Personal herdam da classe Pessoa, reaproveitando atributos e métodos em comum.
-
-### Sobrescrita de métodos
-
-O método exibirDados() foi sobrescrito nas classes filhas para mostrar as informações específicas de cada tipo de pessoa.
 
 ## Como executar
 
